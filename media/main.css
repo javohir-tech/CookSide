@@ -1,0 +1,234 @@
+.button{
+    background-color:rgba(220, 120, 11, 1);
+    padding: 0.625rem 1.25rem;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+}
+.button-outline{
+    font-size: 1rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+    color: rgba(220, 120, 11, 1);
+    border: solid 1px rgba(220, 120, 11, 1);
+    padding: 0.625rem 1.25rem;
+}
+.Philosopher{
+    font-family: 'Philosopher';
+    color: rgba(21, 12, 1, 1);
+}
+.button-outline:hover{
+    color:rgba(255, 255, 255, 1);
+    background-color:rgba(220, 120, 11, 1) ;
+}
+.button:hover{
+    border: solid 1px rgba(220, 120, 11, 1);
+    color: rgba(220, 120, 11, 1);
+}
+.section-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.125rem;
+    letter-spacing: 20%;
+    color: rgba(220, 120, 11, 1);
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.section-subtitle{
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    font-family:'Philosopher';
+    color: rgba(21, 12, 1, 1);
+    margin-bottom: 2rem;
+}
+.section-info{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color:#797979;
+    margin-bottom: 2rem;
+}
+/* header section*/
+.navbar-brand img{
+    width: 3rem;
+}
+.header-section{
+    background-color: whitesmoke;
+    position: fixed;
+    width: 100%;
+    z-index:999 ;
+}
+/*main section */
+.main-section{
+    padding-top: 5rem;
+}
+.main-section__header{
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.main-section__description{
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.main-section__btns button{
+    margin-right: 1rem;
+}
+/* card section */
+.card-section{
+    padding-top: 5rem;
+    text-align: center;
+}
+.section-card{
+    text-align: center;
+}
+.section-card img{
+    width: 3rem;
+    margin-bottom: 0.625rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+.card-header{
+    font-weight: 700;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+/* about us section */
+.about-us-section{
+    padding-top: 6rem;
+}
+.about-us-img{
+    text-align: center;
+}
+.about-us-img img{
+   width: 85%;
+   border-radius: 1.25rem;
+}
+/* menu section */
+.menu-section{
+    padding-top: 6rem;
+    text-align: center;
+}
+.menu-card{
+    border: 1px  solid rgba(0, 0, 0, 0.1);
+    border-radius: 76px 10px 5px 5px ;
+}
+.menu-card img{
+    border-radius: 76px 10px 76px 0px;
+    margin-bottom: 0.625rem;
+}
+.food-description{
+    padding: 1rem;
+    text-align: left;
+}
+.amount i{
+    padding: 0.75rem;
+    background-color: rgba(220, 120, 11, 1);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+}
+.food-reyting i{
+    color:rgba(220, 120, 11, 1);
+   font-size: 1rem;
+}
+.food-reyting .negative{
+    color: #797979;
+}
+/* app section */
+.app-section{
+    margin-top: 6rem;
+    background-color:rgba(251, 241, 231, 1);
+    padding: 1.5rem 6.25rem;
+    
+}
+.app-img{
+    left: 55%;
+}
+.app-img img{
+    border-radius: 0.625rem;
+}
+/* my clients section */
+.my-clients__section{
+    padding-top: 6rem;
+    text-align: center;
+}
+.img-client img{
+   width: 6rem;
+   height: 6rem;
+   margin-bottom: 2rem;
+}
+.client-comment{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 1.5rem;
+}
+.client-reyting i{
+    color: rgba(220, 120, 11, 1);
+    margin-bottom: 1rem;
+}
+.client-reyting .negative{
+    color: #797979;
+}
+.client-name{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1,125rem;
+    color: rgba(0, 0, 0, 1);
+}
+.client-position{
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+}
+/* conatct section */
+.contact-section{
+    margin-top: 6rem;
+    text-align: center;
+    background-color: rgba(251, 241, 231, 1);
+    padding:4rem;
+}
+/* footer section */
+.footer-section{
+    background-color: rgba(37, 37, 37, 1);
+    padding: 6rem;
+}
+.footer-links a,
+.footer-links p{
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    margin-top: 0.625rem;
+    
+}
+.footer-links h3{
+    color: rgba(255, 255, 255, 1);
+}
+@media only screen and (max-width:768px){
+.about-us-img img{
+    margin-bottom: 2rem;
+} 
+.app-section{
+    padding: 1.25rem;
+}
+.contact-section{
+    padding: 1.25rem;
+}
+.footer-section{
+    padding: 1.25rem;
+}
+.footer-links a{
+    font-size: 10px;
+}
+.footer-links h3{
+    font-size: 1.25rem;
+}
+}
